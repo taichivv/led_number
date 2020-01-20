@@ -5,13 +5,12 @@
 以下がYouTubeリンクになります。  
 https://youtu.be/exzufHrwbvo
   
-README.mdに書く実行方法  
   
 $ cd ~/catkin_ws/src  
 $ git clone ***(URL)***  
 $ cd ..  
 $ catkin_make  
-$ cd src/led_number/LED
+$ cd src/led_number/myled  
 $ bash setup.bash  
 $ roslaunch led_ros LED.launch  
 $ 0  
