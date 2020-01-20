@@ -4,16 +4,6 @@
 今回ROSを用いて打ち込んだ数字が偶数の場合LED点灯、奇数の場合LED消灯というのもを作成しました。  
 以下がYouTubeリンクになります。  
 https://youtu.be/exzufHrwbvo
-
-動画撮影時の実行方法  
-  
-$ cd ~/catkin_ws/src/led_unmber/LED  
-$ bash setup.bash  
-$ roslaunch led_unmber LED.launch  
-$ 0  
-$ 1  
-$ 2  
-  
   
 README.mdに書く実行方法  
   
@@ -23,7 +13,7 @@ $ cd ..
 $ catkin_make  
 $ cd src/led_number/LED
 $ bash setup.bash  
-$ roslaunch led_ros LED launch  
+$ roslaunch led_ros LED.launch  
 $ 0  
 $ 1  
 $ 2  
