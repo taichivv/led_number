@@ -7,12 +7,12 @@ https://youtu.be/exzufHrwbvo
   
   
 $ cd ~/catkin_ws/src  
-$ git clone ***(URL)***  
+$ git clone https://github.com/taichivv/led_number.git  
 $ cd ..  
 $ catkin_make  
 $ cd src/led_number/myled  
 $ bash setup.bash  
-$ roslaunch led_ros LED.launch  
+$ roslaunch led_ros led.launch  
 $ 0  
 $ 1  
 $ 2  
