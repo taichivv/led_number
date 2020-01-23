@@ -13,7 +13,4 @@ $ catkin_make
 $ cd src/led_number/myled  
 $ bash setup.bash  
 $ roslaunch led_ros led.launch  
-$ 0  
-$ 1  
-$ 2  
-
+$ (任意の数字)
